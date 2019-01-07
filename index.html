@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume</title>
+<!--<link rel="stylesheet" href="index.css"> COMMENT-->
+    <!--CSS CODE-->
+    <style type="text/css" media="screen">
+        /* BASIC TYPOGRAPHY */
+        html {
+            font-size: 62.5%;
+            font-family: serif;
+        }
+        body {
+            font-size: 1.8rem;
+            line-height: 0.75;
+            max-width: 38em;
+            margin: auto;
+            color: #4a4a4a;
+            background-color: #f9f9f9;
+            padding: 13px;
+        }
+        @media (max-width: 684px) {
+            body {font-size: 1.53rem;}
+        }
+        @media (max-width: 382px) {
+            body {font-size: 1.35rem;}
+        }
+        h1, h2, h3 {
+            font-family: Verdana, Geneva, sans-serif;
+            font-weight: 700;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            word-break: break-word;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+        h1 {
+            font-size: 2.35em;
+            line-height: 0.5;
+        }
+        h2 {
+            font-size: 1.25em;
+            text-indent: 25px;
+            line-height: 1.1;
+        }
+        h3 {
+            font-size: 1em;
+            text-indent: 40px;
+            line-height: 0.75;
+        }
+        li {
+            font-size: 1.25em;
+            text-indent: 50px;
+            line-height: 1.5;
+        }
+        ul {text-indent: 50px;}
+        /* RESET LAYOUT AND ADD COLORS */
+        body {
+        margin: 0;
+        padding: 0;
+        max-width: inherit;
+        }
+        header, footer {
+        font-size: x-large;
+        text-align: center;
+        padding: 0.3em 0;
+        background-color: #4a4a4a;
+        color: #f9f9f9;
+        }
+        /* FLEXBOX-BASED LAYOUT */
+        body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        }
+        .container {
+        display: flex;
+        flex: 1;
+        }
+        main {
+        flex: 1;
+        padding: 0 20px;
+        }
+        /* GRID-BASED LAYOUT */
+        body {
+        display: grid;
+        min-height: 100vh;
+        grid-template-columns: 200px 1fr 150px;
+        grid-template-rows: min-content 1fr min-content;
+        }
+        header {
+        grid-row: 1;
+        grid-column: 1 / 4;
+        }
+        main {
+        grid-row: 2;
+        grid-column: 1 / 4;
+        }
+        footer {
+        grid-row: 3;
+        grid-column: 1 / 4;
+        }
+    </style>
+</head>
+<body>
+<header>JOSEPH T. DEERING</header>
+<main>
+    <h1>Experience</h1>
+    <h2>LG Fuel Cell Systems Inc.</h2>
+        <h3>Testing Engineer (Jan 2015 to Dec 2018)</h3>
+            <li>Managed preparation and inspection of test articles for electrochemical performance and durability evaluation</li>
+            <li>Oversee and support electrochemical testing at various Technology Readiness Levels for performance and durability</li>
+            <li>Manage routine maintenance and test rig upgrades for operational reliability and testing quality</li>
+            <li>Leading design tasks and maintaining work and communications with other groups</li>
+            <li>Maintaining the durability database for various technology readiness level tests</li>
+            <li>Prepare and manage written specifications and instructions for the components and/or processes developed, as well as training others as required</li>
+            <li>Performing engineering calculations to develop specifications, test planning and interpreting the results</li>
+            <BR>
+        <h3>Solid Oxide Fuel Cell Technician (July 2012 to May 2014)</h3>
+            <li>Ambient and pressurized fuel cell technician</li>
+            <li>Process control hardware / software installation, calibration, and support</li>
+            <li>Data reduction and analysis</li>
+            <BR>
+    <h2>Rolls Royce Fuel Cell Systems (US)</h2>
+        <h3>Solid Oxide Fuel Cell Technician (Dec 2008 to July 2012)</h3>
+            <li>Ambient and pressurized fuel cell technician</li>
+            <li>Process control hardware / software installation, calibration, and support</li>
+            <li>Ceramic mounting and polishing / Post-test microstructure analysis</li>
+            <BR>
+        <h3>Mechanical System Support Technician (June 2008 to Dec 2008)</h3>
+            <li>Pre-commissioning of 1 megawatt hybrid fuel cell system</li>
+            <BR>
+    <h1>Education</h1>
+    <h2>Bachelors of Science in Engineering (2014)</h2>
+        <li>The University of Akron, Akron, Ohio</li>
+        <li>Mechanical and Aerospace Engineering focus</li>
+        <BR>
+    <h2>Associate of Applied Science in Mechanical Engineering Technology (2013)</h2>
+        <li>Stark State College of Technology, North Canton, Ohio</li>
+        <li>Fuel Cells and alternate energy systems</li>
+        <BR>
+    <h2>High School Diploma (2003)</h2>
+        <li>Lake High School, Uniontown, Ohio</li>
+        <li>Computers</li>
+        <BR>
+    <h1>Software Skills</h1>
+        <div style="float: left; width: 33%;">
+            <li>AutoCad</li>
+            <li>Blue Mountain RAM</li>
+            <li>C++</li>
+            <li>CSS</li>
+            <li>GitHub</li>
+            <li>HTML</li>
+        </div>
+        <div style="float: left; width: 33%;">
+            <li>JavaScript</li>
+            <li>LabView</li>
+            <li>Mathcad</li>
+            <li>MATLAB</li>
+            <li>Minitab</li>
+            <li>Office Products</li>
+        </div>
+        <div style="float: right; width: 33%;">
+            <li>PI Datalink</li>
+            <li>PI ProcessBook</li>
+            <li>Python</li>
+            <li>Visual Studio</li>
+            <li>VBA</li>
+        </div>
+</main>
+<footer>2019</footer>
+</body>
+</html>
