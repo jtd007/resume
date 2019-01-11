@@ -65,7 +65,8 @@
         max-width: inherit;
         }
         header, footer {
-        font-size: x-large;
+        font-size: 1.5em;
+        line-height: 1.1;
         text-align: center;
         padding: 0.3em 0;
         background-color: #4a4a4a;
@@ -107,18 +108,28 @@
     </style>
 </head>
 <body>
-<header>JOSEPH T. DEERING</header>
+<header>
+    JOSEPH T. DEERING
+    <BR>
+    <script>
+            //Footer Date
+            let today = new Date().toDateString()
+            document.write(today)
+    </script>
+</header>
 <main>
     <h1>Experience</h1>
     <h2>LG Fuel Cell Systems Inc.</h2>
         <h3>Testing Engineer / Development Test Leader (Jan 2015 to Dec 2018)</h3>
             <li>Managed preparation and inspection of test articles for electrochemical performance and durability evaluation</li>
-            <li>Oversee and support electrochemical testing at various Technology Readiness Levels for performance and durability</li>
-            <li>Manage routine maintenance and test rig upgrades for operational reliability and testing quality</li>
-            <li>Leading design tasks and maintaining work and communications with other groups</li>
-            <li>Prepare and manage written specifications and instructions for the components and/or processes developed, as well as training others as required</li>
-            <li>Performed engineering calculations for new design development and testing optimization</li>
-            <li>Automated development of test data acquisition and reduction to summarize testing trends</li>
+            <li>Led development testing operations and supported electrochemical testing at various Technology Readiness Levels</li>
+            <li>Supervised routine maintenance and test rig upgrades for operational reliability and testing quality</li>
+            <li>Lead design tasks and maintaining work and communications with other groups</li>
+            <li>Prepared and managed written specifications and instructions for components and/or developed processes</li>
+            <li>Performed engineering calculations for current and new design development and testing optimization</li>
+            <li>Developed flow distribution and impurity filtration system for high temperature testing</li>
+            <li>Automation development for test data acquisition and reduction to summarize testing trends</li>
+            <li>Implemented development testing dashboard for instantaneous evaluation of testing data using PI ProcessBook</li>
             <BR>
         <h3>Solid Oxide Fuel Cell Technician (July 2012 to May 2014)</h3>
             <li>Ambient and pressurized fuel cell technician</li>
@@ -134,6 +145,7 @@
         <h3>Mechanical System Support Technician (June 2008 to Dec 2008)</h3>
             <li>Pre-commissioning of 1 megawatt hybrid fuel cell system</li>
             <BR>
+    <p style="page-break-before: always"></p>
     <h1>Education</h1>
     <h2>Bachelors of Science in Engineering (2014)</h2>
         <li>The University of Akron, Akron, Ohio</li>
